@@ -1,11 +1,5 @@
 package com.apigateway.app.filter;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;

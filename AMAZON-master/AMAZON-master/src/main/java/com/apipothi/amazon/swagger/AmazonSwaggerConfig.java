@@ -20,9 +20,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class AmazonSwaggerConfig {
 
 	public static final Contact DEFAULT_CONTACT = new Contact(
-			"API POTHI", 
-			"https://www.youtube.com/apipothi",
-			"infoapipothi@gmail.com"
+			"API DENNIS",
+			"https://www.youtube.com/teereecehd",
+			"ronodennis72@gmail.com"
 			);
 
 	public static final ApiInfo APIPOTHI_DEFAULT = new ApiInfo(
@@ -32,7 +32,7 @@ public class AmazonSwaggerConfig {
 			"urn:tos", 
 			DEFAULT_CONTACT,
 			"AMAZON MANUFACTURER 1.0", 
-			"http://apipothi.com/"
+			"http://google.com/"
 			);
 
 	@Bean

@@ -4,13 +4,6 @@ import java.util.List;
 
 import com.apipothi.amazon.to.AmazonTO;
 
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * WEB       : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
 public class AmazonResponse {
 
 	private int statuscode;

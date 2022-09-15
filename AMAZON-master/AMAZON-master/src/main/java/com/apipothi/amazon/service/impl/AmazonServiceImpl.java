@@ -1,11 +1,5 @@
 package com.apipothi.amazon.service.impl;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
