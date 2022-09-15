@@ -1,12 +1,5 @@
 package com.apipothi.flipkart.request;
 
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * WEB       : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
 public class FlipkartRequest {
 	private int id;
 	private String wproductid;
