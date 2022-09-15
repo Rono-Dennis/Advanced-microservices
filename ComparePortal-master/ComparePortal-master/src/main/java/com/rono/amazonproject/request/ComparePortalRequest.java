@@ -1,22 +1,16 @@
-package com.apipothi.portal.swagger.to;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
-public class ComparePortalTO {
+package com.rono.amazonproject.request;
+
+public class ComparePortalRequest {
 
 	private int id;
 	private String wproductid;
 	private String wproductname;
 	private long wproductprice;
 
-	public ComparePortalTO() {
+	public ComparePortalRequest() {
 	}
 
-	public ComparePortalTO(int id, String wproductid, String wproductname, long wproductprice) {
+	public ComparePortalRequest(int id, String wproductid, String wproductname, long wproductprice) {
 		super();
 		this.id = id;
 		this.wproductid = wproductid;
@@ -58,7 +52,7 @@ public class ComparePortalTO {
 
 	@Override
 	public String toString() {
-		return "ComparePortalTO [id=" + id + ", wproductid=" + wproductid + ", wproductname=" + wproductname
+		return "ComparePortalRequest [id=" + id + ", wproductid=" + wproductid + ", wproductname=" + wproductname
 				+ ", wproductprice=" + wproductprice + "]";
 	}
 

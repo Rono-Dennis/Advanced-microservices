@@ -1,14 +1,8 @@
-package com.apipothi.portal.response;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
+package com.rono.amazonproject.response;
+
 import java.util.List;
 
-import com.apipothi.portal.swagger.to.ComparePortalTO;
+import com.rono.amazonproject.swagger.to.ComparePortalTO;
 
 public class ComparePortalResponse {
 

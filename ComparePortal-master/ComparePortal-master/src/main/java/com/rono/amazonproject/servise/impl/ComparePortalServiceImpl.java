@@ -1,24 +1,17 @@
-package com.apipothi.portal.servise.impl;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
+package com.rono.amazonproject.servise.impl;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import com.rono.amazonproject.servise.ComparePortalService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.apipothi.portal.dao.ComparePortalDAO;
-import com.apipothi.portal.model.ComparePortalProduct;
-import com.apipothi.portal.request.ComparePortalRequest;
-import com.apipothi.portal.servise.ComparePortalService;
-import com.apipothi.portal.swagger.to.ComparePortalTO;
+import com.rono.amazonproject.dao.ComparePortalDAO;
+import com.rono.amazonproject.model.ComparePortalProduct;
+import com.rono.amazonproject.swagger.to.ComparePortalTO;
 
 @Component
 public class ComparePortalServiceImpl implements ComparePortalService {

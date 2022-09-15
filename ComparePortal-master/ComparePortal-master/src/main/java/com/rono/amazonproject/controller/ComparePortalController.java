@@ -1,34 +1,23 @@
-package com.apipothi.portal.controller;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
+package com.rono.amazonproject.controller;
+
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
+import com.rono.amazonproject.feign.CAmazonProxy;
+import com.rono.amazonproject.feign.CFlipkartProxy;
+import com.rono.amazonproject.feign.CProductManufacturerProxy;
+import com.rono.amazonproject.response.ComparePortalResponse;
+import com.rono.amazonproject.response.ShopingResponse;
+import com.rono.amazonproject.servise.ComparePortalService;
+import com.rono.amazonproject.swagger.to.ComparePortalTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.apipothi.portal.feign.CAmazonProxy;
-import com.apipothi.portal.feign.CFlipkartProxy;
-import com.apipothi.portal.feign.CProductManufacturerProxy;
-import com.apipothi.portal.response.ComparePortalResponse;
-import com.apipothi.portal.response.ShopingResponse;
-import com.apipothi.portal.servise.ComparePortalService;
-import com.apipothi.portal.swagger.to.ComparePortalTO;
-
-//db.amazon.find({  "A_PRODUCT_ID":"WIPAD" })
 
 @RestController
 public class ComparePortalController {

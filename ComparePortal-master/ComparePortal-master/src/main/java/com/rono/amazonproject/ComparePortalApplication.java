@@ -1,11 +1,5 @@
-package com.apipothi.portal;
-/*
- * Author    : API POTHI
- * YouTube   : https://www.youtube.com/apipothi
- * Web Site  : http://apipothi.com/
- * Play List : MICROSERVICE-SPRINGBOOT
- * JAVA      : 1.8
-*/
+package com.rono.amazonproject;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -17,10 +11,8 @@ import org.springframework.context.annotation.Bean;
 
 import brave.sampler.Sampler;
 
-//http://localhost:8083/swagger-ui.html
-
 @SpringBootApplication
-@EnableFeignClients("com.apipothi.portal")
+@EnableFeignClients("com.rono.amazonproject")
 @EnableDiscoveryClient
 public class ComparePortalApplication {
 	private final static Logger logger = LoggerFactory.getLogger(ComparePortalApplication.class);
