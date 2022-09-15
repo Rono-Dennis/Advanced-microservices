@@ -17,9 +17,9 @@ public class ApiGatewayServiceSwagger {
 	private final static Logger logger = LoggerFactory.getLogger(ApiGatewayServiceSwagger.class);
 
 	public static final Contact DEFAULT_CONTACT = new Contact(
-			"API POTHI", 
-			"https://www.youtube.com/apipothi",
-			"infoapipothi@gmail.com"
+			"API DENNIS",
+			"https://www.youtube.com/teereecehd",
+			"ronodennis72@gmail.com"
 			);
 
 	public static final ApiInfo APIPOTHI_DEFAULT = new ApiInfo(
@@ -29,7 +29,7 @@ public class ApiGatewayServiceSwagger {
 			"urn:tos", 
 			 DEFAULT_CONTACT, 
 			"USER-SERVICE 1.0", 
-			"https://www.youtube.com/apipothi"
+			"https://www.youtube.com/teereecehd"
 			);
 
 	@Bean
