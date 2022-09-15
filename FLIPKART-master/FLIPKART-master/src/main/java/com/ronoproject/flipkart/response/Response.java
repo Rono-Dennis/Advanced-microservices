@@ -1,8 +1,8 @@
-package com.apipothi.flipkart.response;
+package com.ronoproject.flipkart.response;
 
 import java.util.List;
 
-import com.apipothi.flipkart.to.FlipkartTO;
+import com.ronoproject.flipkart.to.FlipkartTO;
 
 public class Response {
 

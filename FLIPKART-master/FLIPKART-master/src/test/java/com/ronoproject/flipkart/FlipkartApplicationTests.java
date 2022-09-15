@@ -1,4 +1,4 @@
-package com.apipothi.flipkart;
+package com.ronoproject.flipkart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

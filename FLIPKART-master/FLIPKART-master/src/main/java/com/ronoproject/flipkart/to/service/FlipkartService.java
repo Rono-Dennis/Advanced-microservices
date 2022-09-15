@@ -1,9 +1,9 @@
-package com.apipothi.flipkart.to.service;
+package com.ronoproject.flipkart.to.service;
 
 import java.util.List;
 
-import com.apipothi.flipkart.request.FlipkartRequest;
-import com.apipothi.flipkart.to.FlipkartTO;
+import com.ronoproject.flipkart.request.FlipkartRequest;
+import com.ronoproject.flipkart.to.FlipkartTO;
 
 public interface FlipkartService {
 

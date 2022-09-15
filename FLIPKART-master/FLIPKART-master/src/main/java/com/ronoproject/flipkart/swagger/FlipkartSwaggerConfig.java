@@ -1,4 +1,4 @@
-package com.apipothi.flipkart.swagger;
+package com.ronoproject.flipkart.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

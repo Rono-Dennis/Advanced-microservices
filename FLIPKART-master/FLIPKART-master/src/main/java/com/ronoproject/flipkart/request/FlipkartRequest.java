@@ -1,12 +1,22 @@
-package com.apipothi.flipkart.to;
+package com.ronoproject.flipkart.request;
 
-public class FlipkartTO {
-
+public class FlipkartRequest {
 	private int id;
-
 	private String wproductid;
 	private String wproductname;
 	private long wproductprice;
+
+	public FlipkartRequest() {
+		super();
+	}
+
+	public FlipkartRequest(int id, String wproductid, String wproductname, long wproductprice) {
+		super();
+		this.id = id;
+		this.wproductid = wproductid;
+		this.wproductname = wproductname;
+		this.wproductprice = wproductprice;
+	}
 
 	public int getId() {
 		return id;
@@ -36,13 +46,13 @@ public class FlipkartTO {
 		return wproductprice;
 	}
 
-	public void setWproductprice(long wproductprice) {
+	public void setWproductprice(int wproductprice) {
 		this.wproductprice = wproductprice;
 	}
 
 	@Override
 	public String toString() {
-		return "FlipkartTO [id=" + id + ", wproductid=" + wproductid + ", wproductname=" + wproductname
+		return "FlipkartRequest [id=" + id + ", wproductid=" + wproductid + ", wproductname=" + wproductname
 				+ ", wproductprice=" + wproductprice + "]";
 	}
 

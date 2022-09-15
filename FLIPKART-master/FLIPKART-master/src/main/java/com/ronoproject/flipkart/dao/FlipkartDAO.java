@@ -1,8 +1,7 @@
-package com.apipothi.flipkart.dao;
+package com.ronoproject.flipkart.dao;
 
+import com.ronoproject.flipkart.model.FlipkartProduct;
 import org.springframework.data.mongodb.repository.MongoRepository;
-
-import com.apipothi.flipkart.model.FlipkartProduct;
 
 public interface FlipkartDAO extends MongoRepository<FlipkartProduct, Integer> {
 

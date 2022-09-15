@@ -1,4 +1,4 @@
-package com.apipothi.flipkart;
+package com.ronoproject.flipkart;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +12,7 @@ import brave.sampler.Sampler;
 
 
 @SpringBootApplication
-@EnableFeignClients("com.apipothi.flipkart")
+@EnableFeignClients("com.ronoproject.flipkart")
 @EnableDiscoveryClient
 public class FlipkartApplication {
 	private final static Logger logger = LoggerFactory.getLogger(FlipkartApplication.class);

@@ -1,8 +1,9 @@
-package com.apipothi.flipkart.controller;
+package com.ronoproject.flipkart.controller;
 
 import java.util.List;
-import java.util.Set;
 
+import com.ronoproject.flipkart.request.FlipkartRequest;
+import com.ronoproject.flipkart.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +16,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.apipothi.flipkart.feign.FProductManufacturerProxy;
-import com.apipothi.flipkart.request.FlipkartRequest;
-import com.apipothi.flipkart.response.FlipkartResponse;
-import com.apipothi.flipkart.response.Response;
-import com.apipothi.flipkart.to.FlipkartTO;
-import com.apipothi.flipkart.to.service.impl.FlipkartServiceImpl;
+import com.ronoproject.flipkart.feign.FProductManufacturerProxy;
+import com.ronoproject.flipkart.to.FlipkartTO;
+import com.ronoproject.flipkart.to.service.impl.FlipkartServiceImpl;
 
 @RestController
 public class FlipkartController {

@@ -1,4 +1,4 @@
-package com.apipothi.flipkart.model;
+package com.ronoproject.flipkart.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

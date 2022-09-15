@@ -1,19 +1,18 @@
-package com.apipothi.flipkart.to.service.impl;
+package com.ronoproject.flipkart.to.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.ronoproject.flipkart.dao.FlipkartDAO;
+import com.ronoproject.flipkart.model.FlipkartProduct;
+import com.ronoproject.flipkart.request.FlipkartRequest;
+import com.ronoproject.flipkart.to.FlipkartTO;
+import com.ronoproject.flipkart.to.service.FlipkartService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import com.apipothi.flipkart.dao.FlipkartDAO;
-import com.apipothi.flipkart.model.FlipkartProduct;
-import com.apipothi.flipkart.request.FlipkartRequest;
-import com.apipothi.flipkart.to.FlipkartTO;
-import com.apipothi.flipkart.to.service.FlipkartService;
 
 @Component
 public class FlipkartServiceImpl implements FlipkartService {

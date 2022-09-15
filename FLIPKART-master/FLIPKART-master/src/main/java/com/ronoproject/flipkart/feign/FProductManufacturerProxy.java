@@ -1,10 +1,9 @@
-package com.apipothi.flipkart.feign;
+package com.ronoproject.flipkart.feign;
 
+import com.ronoproject.flipkart.response.Response;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import com.apipothi.flipkart.response.Response;
 
 //@FeignClient(name = "productmanufacturer", url = "localhost:8080")
 
