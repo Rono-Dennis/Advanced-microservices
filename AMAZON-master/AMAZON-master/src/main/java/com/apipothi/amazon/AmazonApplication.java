@@ -11,8 +11,6 @@ import brave.sampler.Sampler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-//http://localhost:8082/swagger-ui.html
-	
 @SpringBootApplication
 @EnableFeignClients("com.apipothi.amazon")
 @EnableDiscoveryClient

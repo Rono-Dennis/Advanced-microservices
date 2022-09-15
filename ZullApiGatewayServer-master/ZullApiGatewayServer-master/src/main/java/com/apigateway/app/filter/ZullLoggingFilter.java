@@ -30,7 +30,7 @@ public class ZullLoggingFilter extends ZuulFilter {
 		return null;
 	}
 	
-	// Returns a String that stands for the type of the filter — in this case, pre. 
+
 	//(It would be route for a routing filter.
 	@Override
 	public String filterType() {

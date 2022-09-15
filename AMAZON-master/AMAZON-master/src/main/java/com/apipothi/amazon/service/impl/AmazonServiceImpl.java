@@ -33,7 +33,6 @@ public class AmazonServiceImpl implements AmazonService {
 				amazonProduct.setId(amazonTO.getId());
 				amazonProduct.setProductid(amazonTO.getWproductid());
 				amazonProduct.setProductname(amazonTO.getWproductname());
-				//amazonProduct.setProductprice(amazonTO.getWproductprice());
 				long costPrice = amazonTO.getWproductprice();
 				long sellingPrice = amazonSellingPrice(costPrice);
 				amazonProduct.setProductprice(sellingPrice);
